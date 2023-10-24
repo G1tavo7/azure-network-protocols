@@ -26,18 +26,18 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Step 1 - From within the VM install wireshark (64-bit)
+- Step 2 - 
+- Step 3 - 
+- Step 4 - 
 
 <h2>Actions and Observations</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Q6Lkwbi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+After downloading wireshark and statring it up this is how the screen will look. You'll use this to start capturing packets. You can see the live traffic that is happening within the VM. When you first start it most of it will be spam, every so often you'll see your ip address. To stop this to type ICMP(Internet control Messenger Protocol) in the long bar and it will stop.
 </p>
 <br />
 
