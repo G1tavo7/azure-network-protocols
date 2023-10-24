@@ -42,17 +42,17 @@ After downloading wireshark and statring it up this is how the screen will look.
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/FDjUYRL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In this I pinged from VM1 to VM2 using the private ip address that I created in azure being 10.0.0.5. Then I opened up powershell typed ping and put the private ip of VM2. You then see the reply from the system. And as we talked about packets before you see it saying that it received and set 4 packets and lost 0. In the background you see that VM1 being the source is sending it to its destination being VM2. You also see after that I typed in 'google.com" a website everyone knows and put a -4(meaning ip4 address) and it did the same thing but using the google ip address. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/lkPWkdG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+This slide is showing how to get into ssh. To get to this page you'll have to do a few steps before getting here. You can just go thru the VM1 , type in ssh labuser@10.0.0.5. So to clarify I'll break it down so its easier to understand, the ssh stands for SecureShell, the 'labuser' part came from azure being the name of the user, and the last part being 10.0.0.5 came from the ip address. You'll have to type in the user and password that was made in azure after. When entering the password it will look like you are not typing anything in but thats just a security measure.
 </p>
 <br />
