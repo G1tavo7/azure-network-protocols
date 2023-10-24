@@ -27,9 +27,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>High-Level Steps</h2>
 
 - Step 1 - From within the VM install wireshark (64-bit)
-- Step 2 - 
-- Step 3 - 
-- Step 4 - 
+- Step 2 - we'll use ping to see it bouncing between VM1 to VM2
+- Step 3 - In VM we'll open up SSH 
 
 <h2>Actions and Observations</h2>
 
